@@ -1,0 +1,70 @@
+body.bg-light {
+    background-color: #f8f9fa;
+}
+
+.card.bg-light {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.form-floating .form-label {
+    color: #212529;
+    transition: color 0.3s ease;
+}
+
+.form-floating .form-control::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+body.bg-dark {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+.card.bg-dark {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+body.bg-dark .form-floating .form-label {
+    color: #f8f9fa;
+}
+
+body.bg-dark .form-floating .form-control::placeholder {
+    color: #adb5bd;
+    opacity: 1;
+}
+
+.form-floating {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-floating .form-control {
+    padding: 1rem 0.75rem;
+    border-radius: 0.375rem;
+    background-color: #ffffff;
+    color: #495057;
+}
+
+.form-floating .form-label {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    color: #6c757d;
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+.form-floating .form-control:focus ~ .form-label,
+.form-floating .form-control:not(:placeholder-shown) ~ .form-label {
+    top: -0.5rem;
+    left: 0.75rem;
+    font-size: 0.75rem;
+    color: #007bff;
+}
+
+.form-floating .form-control::placeholder {
+    color: transparent;
+}

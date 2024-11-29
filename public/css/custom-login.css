@@ -1,0 +1,22 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.card {
+    margin-top: 5rem;
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: none;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+}
